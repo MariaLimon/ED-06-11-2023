@@ -33,6 +33,10 @@ namespace ED06_11_2023.Clases
         {
             return _siguiente;
         }
+        public void setSiguiente(Nodo siguiente)
+        {
+            _siguiente = siguiente;
+        }
         /*forma corta
         public int datos { get; }
         public Nodo siguiente { get; set; }
